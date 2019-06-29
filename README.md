@@ -1,15 +1,14 @@
 ### Date created
-Include the date you created this project and README file.
+28.06.2019
 
 ### Project Title
-Replace the Project Title
+US Bike share analysis
 
 ### Description
-Describe what your project is about and what it does
+This projects allows to explore bike share usage patterns.
 
 ### Files used
-Include the files used
+chicago.csv, new_york_city.csv, washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+N/A
