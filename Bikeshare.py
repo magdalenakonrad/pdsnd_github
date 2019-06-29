@@ -54,14 +54,25 @@ def load_data(city, month, day):
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
     """
+
+    # load data file into a dataframe
     df = pd.read_csv(CITY_DATA[city])
 
+    # convert Start Time into datetime
     df['Start Time'] = pd.to_datetime(df['Start Time'])
+
+    # extract month from Start Time and create new column
     df['month'] = df['Start Time'].dt.month
+
+    # extract day of a week from Start Time and create new column
     df['day_of_week'] = df['Start Time'].dt.weekday_name
+
+    # create month filter
     if month != 'all':
         months = ['january', 'february', 'march', 'april', 'may', 'june']
         month = months.index(month) + 1
+
+    # create day of a week filter
     if day != 'All':
         df = df[df['day_of_week'] == day.title()]
 
