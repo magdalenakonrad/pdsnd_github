@@ -5,7 +5,7 @@
 US Bike share analysis
 
 ### Description
-This projects allows to explore bike share usage patterns.
+This projects allows to explore bike share usage patterns in Chicago, New York City and Washington.
 
 ### Files used
 chicago.csv, new_york_city.csv, washington.csv
