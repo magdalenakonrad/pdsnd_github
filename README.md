@@ -11,4 +11,4 @@ This projects allows to explore bike share usage patterns.
 chicago.csv, new_york_city.csv, washington.csv
 
 ### Credits
-N/A
+www.udacity.com
